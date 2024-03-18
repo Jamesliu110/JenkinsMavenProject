@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.renju.training.jenkins.SampleSeleniumTest"/>
-      <class name="com.renju.training.jenkins.JenkinsCalcTest"/>
+      <class name="com.james.training.jenkins.SampleSeleniumTest"/>
+      <class name="com.james.training.jenkins.JenkinsCalcTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
