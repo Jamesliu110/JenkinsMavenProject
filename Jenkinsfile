@@ -19,7 +19,7 @@ pipeline {
 		stage("Consolidate Results") {
 			steps {
 				input ("Do you want to capture results?")
-				junit '**/target/*.xml'
+				junit '**/test-output/TEST-*.xml'
 				archive 'target/*.jar'
 			}
 		}
