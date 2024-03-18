@@ -86,7 +86,8 @@
                     <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <shutdown>kill</shutdown> <!-- Use it if required-->
-                    </configuration>
+		     <outputDirectory>${basedir}/target/surefire-report.html</outputDirectory>
+                       </configuration>
                 </plugin>
 
 		</plugins>
