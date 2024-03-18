@@ -16,12 +16,6 @@ pipeline {
 				bat "mvn package"
 				}
 		}
-		stage("Consolidate Results") {
-			steps {
-				input ("Do you want to capture results?")
-				junit '**/test-output/TEST-*.xml'
-				archive 'target/*.jar'
-			}
-		}
+
 	}
 }
